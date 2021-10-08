@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentMenu.stat.tousStatFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/ag5"
+            android:layout_width="182dp"
+            android:layout_height="40dp"
+            android:text="Nombres des participants \n ayant un â entre15 et 19 :    "
+
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ag4"
+            app:layout_constraintVertical_bias="0.152" />
+
+        <TextView
+            android:id="@+id/nn2"
+            android:layout_width="144dp"
+            android:layout_height="38dp"
+            android:layout_weight="1"
+            android:textSize="30dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ag5"
+            app:layout_constraintTop_toBottomOf="@+id/n2"
+            app:layout_constraintVertical_bias="0.153" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="169dp"
+            android:layout_height="48dp"
+            android:background="#B0C8F1"
+            android:shadowColor="#FFFFFF"
+            android:text="    Nombres \n    des Hommes :    "
+            android:textColor="#151414"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.089" />
+
+        <TextView
+            android:id="@+id/nbrsHomme2"
+            android:layout_width="134dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.241"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView23"
+            app:layout_constraintVertical_bias="0.04" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="198dp"
+            android:layout_height="48dp"
+            android:background="#D5FA4280"
+            android:text="    Nombres \n    des Femmes"
+            android:textColor="#090808"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/textView23"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.089" />
+
+        <TextView
+            android:id="@+id/nbrFemme2"
+            android:layout_width="129dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginLeft="48dp"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/nbrsHomme2"
+            app:layout_constraintTop_toBottomOf="@+id/textView25"
+            app:layout_constraintVertical_bias="0.042" />
+
+        <TextView
+            android:id="@+id/ag4"
+            android:layout_width="178dp"
+            android:layout_height="38dp"
+            android:textSize="15dp"
+            android:text="Nombres des participants \n ayant un â entre 10 et 14 :    "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.099"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nbrsHomme2"
+            app:layout_constraintVertical_bias="0.177" />
+
+        <TextView
+            android:id="@+id/n2"
+            android:layout_width="164dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.76"
+            app:layout_constraintStart_toEndOf="@+id/ag4"
+            app:layout_constraintTop_toBottomOf="@+id/nbrFemme2"
+            app:layout_constraintVertical_bias="0.164" />
+
+        <TextView
+            android:id="@+id/ag7"
+            android:layout_width="185dp"
+            android:layout_height="39dp"
+            android:text="Nombres des participants \n ayant un â entre 20 et 30 :    "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.099"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ag5"
+            app:layout_constraintVertical_bias="0.27" />
+
+        <TextView
+            android:id="@+id/nnn2"
+            android:layout_width="153dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:textSize="30dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.568"
+            app:layout_constraintStart_toEndOf="@+id/ag7"
+            app:layout_constraintTop_toBottomOf="@+id/nn2"
+            app:layout_constraintVertical_bias="0.257" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

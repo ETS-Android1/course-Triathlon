@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="Public">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/inscriptionicon"
+                    android:title="@string/menu_home" />
+
+                <item
+                    android:id="@+id/nav_result"
+                    android:icon="@drawable/ic_baseline_accessibility_new_24"
+                    android:title="@string/menu_result" />
+                <item
+                    android:id="@+id/nav_stati"
+                    android:icon="@drawable/ic_baseline_assessment_24"
+                    android:title="@string/menu_stati" />
+            </group>
+
+        </menu>
+
+
+    </item>
+    <item android:title="Privé">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_admin"
+                    android:icon="@drawable/ic_baseline_assignment_ind_24"
+                    android:title="@string/menu_admin" />
+            </group>
+
+        </menu>
+
+
+    </item>
+<!--    <item android:title="Social Media">-->
+<!--        <menu>-->
+<!--            <item android:id="@+id/fb1"-->
+<!--                android:title="Facebook"/>-->
+
+<!--            <item android:id="@+id/insta"-->
+<!--                android:title="Instagram"/>-->
+<!--        </menu>-->
+<!--    </item>-->
+
+
+</menu>
