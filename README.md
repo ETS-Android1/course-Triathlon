@@ -1,6 +1,10 @@
 # course-Triathlon
 Développement d’une application mobile de  Gestion de course triathlon 
 
+Saisie des équipes, des participants par équipe, épreuve par participant, résultat par catégorie d'âge et de sexe. Statistique sur la performances par équipe par participant.
+
+
+
 
 ![1](https://user-images.githubusercontent.com/64171895/137003637-1a1fc712-2880-4f27-8b34-8ad7d508f7c3.jpg)
 ![2](https://user-images.githubusercontent.com/64171895/137003641-a887333e-beee-440b-af58-948b08819c6f.jpg)
