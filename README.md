@@ -3,6 +3,7 @@ Développement d’une application mobile de  Gestion de course triathlon
 
 Saisie des équipes, des participants par équipe, épreuve par participant, résultat par catégorie d'âge et de sexe. Statistique sur la performances par équipe par participant.
 
+ ☑️ Keywords: Android, Studio, Java, XML, SQLite
 
 
 
